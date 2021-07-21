@@ -22,7 +22,7 @@ h1 {
 }
 
 body {
-  background-color: black;
+  background-color: lightblue;
 }
 
 /*Class selector*/
@@ -40,14 +40,13 @@ p#id-example-1.class-example-1 {
   color: yellow;
 }
 
-/*.class-example-2 {
+.class-example-2 {
   text-align: center;
-}*/
+}
 
 table, th, td {
-  border: solid 1px white;
+  border: solid 1px black;
   text-align: center;
-  color: white;
 }
 
 /*Margin is the distance that separates the two elements*/
@@ -68,8 +67,9 @@ E.g. This media query changes the backgrd color when we resize the screen to a w
   }
 }
 
+/*Button classes*/
 .btn-red {
-  color: red;
+  color: red !important;
 }
 
 .btn-blue {

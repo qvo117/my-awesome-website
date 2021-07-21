@@ -7,6 +7,9 @@
     <!--Rel means we want to link our html with a stylesheet relationship and href is the path of our file 
       (could be something online or somewhere on our local computer)-->
     <link rel="stylesheet" href="styles.css">
+    <!--Prints on the console using JS
+    <script>console.log("Hello World")</script>-->
+    <!--Add an external JS file using the src attribute of script-->
     <script src="index.js"></script>
   </head>
   <!-- Body of webpage contains elements that will be displayed by the browser -->
@@ -19,14 +22,15 @@
     <p class="class-example-1 class-example-2" >My <strong>first</strong> paragraph.</p>
     
     <!--Using id for styling has a higher priority over class styling-->
-    <p id="id-example-1" class="class-example-1" >My <strong>second</strong> paragraph.</p>
+    <p id="id-example-1" class="class-example-1 class-example-2" >My <strong>second</strong> paragraph.</p>
     
     <!--An element that does not have content and an end tag-->
     <br />
 
     <!--A link-->
     <a href="https://www.w3schools.com/html/default.asp" target="_blank">Tags reference</a>
-    <button id="btn" class="btn-red btn-blue">Click me</button>
+    <!--A button-->
+    <button id="btn" class="btn-blue btn-red">Click me</button>
     
     <!--Table-->
     <table>
